@@ -1,8 +1,15 @@
-const ftoc = function() {
+const ftoc = function(ftemp) {
+  let cel = (ftemp-32)*(5/9);
+
+        
+
+        console.log(cel.toFixed(1));
+        return cel.toFixed(1);
+
 
 };
 
-const ctof = function() {
+const ctof = function(ctemp) {
 
 };
 
