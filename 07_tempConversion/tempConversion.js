@@ -4,12 +4,14 @@ const ftoc = function(ftemp) {
         
 
         console.log(cel.toFixed(1));
-        return cel.toFixed(1);
+        return parseFloat(cel.toFixed(1));
 
 
 };
 
 const ctof = function(ctemp) {
+  let fah = (ctemp*(9/5)+32); 
+    return parseFloat(fah.toFixed(1));
 
 };
 
